@@ -1,0 +1,115 @@
+body {
+  margin: 0 10px;
+  background-color: #141b23;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.content-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 900px;
+  font-family: sans-serif;
+}
+.navigation {
+  float: left;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.navigation>a:not(:last-child) {
+  padding-right: 55px;
+}
+.navigation__link {
+  color: #ffff78;
+  font-size: 18px;
+  line-height: 24px;
+}
+.logo {
+  float: right;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.promo {
+  padding-top: 10px;
+}
+.promo__img-wrapper {
+  border-bottom: 3px solid #f4f574;
+}
+.promo__img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.promo__text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #cfcfcf;
+  font-size: 18px;
+  line-height: 24px;
+}
+.about__title,
+.slider__title {
+  color: #ffff78;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+.about__img-wrapper {
+  display: inline-block;
+  padding-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+.about__img-wrapper > img:not(:last-child) {
+  margin-right: 10px;
+}
+.about__list {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #cfcfcf;
+  font-size: 18px;
+  list-style: url('../images/-.png');
+}
+.about__item {
+  padding-left: 25px;
+}
+.about__item:not(:last-child) {
+  padding-bottom: 25px;
+}
+.slider {
+  padding-bottom: 50px;
+}
+.slider__body {
+  background-color: #8e9195;
+  line-height: 225px;
+}
+.slider__left-btn,
+.slider__right-btn {
+  width: 40px;
+  height: 40px;
+  margin-top: 92.5px;
+  margin-bottom: 92.5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-color: #ffff78;
+  cursor: pointer;
+}
+.slider__left-btn {
+  float: left
+}
+.slider__right-btn {
+  float: right;
+}
+.footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #ffff78;
+  font-family: myriad-pro, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  text-align: right;
+}
