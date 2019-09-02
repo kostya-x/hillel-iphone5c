@@ -67,13 +67,15 @@ body {
 }
 .about__list {
   padding-top: 50px;
+  padding-left: 32px;
   padding-bottom: 50px;
   color: #cfcfcf;
   font-size: 18px;
   list-style: url('../images/-.png');
 }
 .about__item {
-  padding-left: 25px;
+  margin-left: 7px;
+  padding-left: 20px;
 }
 .about__item:not(:last-child) {
   padding-bottom: 25px;
