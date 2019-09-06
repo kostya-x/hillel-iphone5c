@@ -53,6 +53,9 @@ body {
 }
 .about__title,
 .slider__title {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 50px;
   color: #ffff78;
   font-size: 30px;
   line-height: 30px;
@@ -60,7 +63,6 @@ body {
 }
 .about__image-wrapper {
   display: inline-block;
-  padding-top: 50px;
   width: 100%;
   text-align: center;
 }
